@@ -1,0 +1,14 @@
+project:
+  title: "slides"
+  type: website
+  output-dir: public
+  resources: banner.png
+  render:
+    - "*.qmd"
+    - "*.Rmd"
+    - "!talks/TWIX_SWYM/"
+
+
+
+
+
