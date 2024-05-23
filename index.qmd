@@ -202,10 +202,6 @@ Autocomplétion du YAML et du contenu Quarto
 
 ![](img/quarto-yaml.png){fig-align="center" width="60%"}
 
-## Intégration de templates quarto
-
-![<https://github.com/davidcarayon/quarto-inrae-extension>](img/cap-color.png){fig-align="center" width="80%"}
-
 # Pas encore convaincus ? {.inverse}
 
 ## Les extensions !
