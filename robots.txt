@@ -1,0 +1,1 @@
+Sitemap: https://davidcarayon.github.io/Insee-vscode/sitemap.xml
