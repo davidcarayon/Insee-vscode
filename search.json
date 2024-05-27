@@ -46,7 +46,7 @@
     "href": "index.html#la-palette-de-commandes",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "La palette de commandes",
-    "text": "La palette de commandes\nUn raccourcis pour TOUS les unir  : CTRL + MAJ + P"
+    "text": "La palette de commandes\nUn raccourci pour les gouverner tous  : CTRL + MAJ + P"
   },
   {
     "objectID": "index.html#snippets",
@@ -88,7 +88,14 @@
     "href": "index.html#autocomplétion-aide",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Autocomplétion, aide",
-    "text": "Autocomplétion, aide\nUn peu différent de sous RStudio"
+    "text": "Autocomplétion, aide\nSupérieure dans l’éditeur de script"
+  },
+  {
+    "objectID": "index.html#autocomplétion-aide-1",
+    "href": "index.html#autocomplétion-aide-1",
+    "title": "VSCode pour faire du R : une (R)évolution ?",
+    "section": "Autocomplétion, aide",
+    "text": "Autocomplétion, aide\nUn peu plus sobre dans le terminal"
   },
   {
     "objectID": "index.html#workspace",
@@ -221,7 +228,7 @@
     "href": "index.html#les-quelques-inconvénients",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Les (quelques) inconvénients",
-    "text": "Les (quelques) inconvénients\n\n\nPas de templates de projet R en GUI (ex : R package with devtools)\nAutocompletion différente\nBeaucoup de bidouille (gestion de python, configs, raccourcis, conflits d’extensions)\nRenv : Quelques subtilités (vscode a besoin de 2 packages pour fonctionner)\nTROP de possibilités de customisation\nOutils spécifiquement développés pour rstudio non accessibles (type addin)"
+    "text": "Les (quelques) inconvénients\n\n\nPas de templates de projet R en GUI (ex : R package with devtools)\nAutocompletion différente (console vs radian)\nBeaucoup de bidouille (gestion de python, configs, raccourcis, conflits d’extensions)\nRenv : Quelques subtilités (vscode a besoin de 2 packages pour fonctionner)\nTROP de possibilités de customisation\nOutils spécifiquement développés pour rstudio non accessibles (type addin)"
   },
   {
     "objectID": "index.html#a-retenir",
@@ -235,7 +242,7 @@
     "href": "index.html#merci-des-questions",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Merci ! Des questions ?",
-    "text": "Merci ! Des questions ?\n\n\n\n\nMe contacter\n\n\n https://dcarayon.fr\n https://github.com/davidcarayon\n https://www.linkedin.com/in/carayon-david/\n david.carayon@inrae.fr\n\n\n\n\n Slides consultables ici :  https://dcarayon.fr/slides/INSEE-VSCODE"
+    "text": "Merci ! Des questions ?\n\n\n\n\nMe contacter\n\n\n https://dcarayon.fr\n https://github.com/davidcarayon\n https://www.linkedin.com/in/carayon-david/\n david.carayon@inrae.fr\n\n\n\n\n Slides consultables ici :  https://dcarayon.fr/slides/Insee-vscode"
   },
   {
     "objectID": "index.html#slides-made-with",
