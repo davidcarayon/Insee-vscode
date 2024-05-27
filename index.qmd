@@ -113,7 +113,7 @@ A ce que l'on veut !!
 
 ## La palette de commandes
 
-Un raccourcis pour TOUS les unir {{< fa ring >}} : CTRL + MAJ + P
+Un raccourci pour les gouverner tous {{< fa ring >}} : CTRL + MAJ + P
 
 ![](img/palette.png){fig-align="center" width="70%"}
 
@@ -168,9 +168,15 @@ Un raccourcis pour TOUS les unir {{< fa ring >}} : CTRL + MAJ + P
 
 ## Autocomplétion, aide
 
-Un peu différent de sous RStudio
+Supérieure dans l'éditeur de script
 
 ![](img/completion.gif){fig-align="center" width="80%"}
+
+## Autocomplétion, aide
+
+Un peu plus sobre dans le terminal
+
+![](img/radian.png){fig-align="center" width="80%"}
 
 ## Workspace {{< fa brands r-project >}}
 
@@ -278,7 +284,7 @@ Un [Obsidian](https://obsidian.md) dans vscode !
 
 :::{.incremental}
 - Pas de templates de projet R en GUI (ex : R package with devtools)
-- Autocompletion **différente**
+- Autocompletion **différente** (console _vs_ radian)
 - **Beaucoup** de bidouille (gestion de python, configs, raccourcis, conflits d'extensions)
 - Renv : Quelques subtilités (vscode a besoin de 2 packages pour fonctionner)
 - TROP de possibilités de customisation
@@ -313,7 +319,7 @@ Un [Obsidian](https://obsidian.md) dans vscode !
 
 <br />
 
-{{< fa brands slideshare >}} Slides consultables ici : <br> <https://dcarayon.fr/slides/INSEE-VSCODE>
+{{< fa brands slideshare >}} Slides consultables ici : <br> <https://dcarayon.fr/slides/Insee-vscode>
 
 ## Slides made with ... {.plain}
 
