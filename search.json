@@ -39,7 +39,7 @@
     "href": "index.html#la-configuration",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "La configuration",
-    "text": "La configuration\n\nCes options sont synchronisables avec votre compte Gihub"
+    "text": "La configuration\n\n\n\n\n\n Ces options sont synchronisables avec votre compte Gihub"
   },
   {
     "objectID": "index.html#la-palette-de-commandes",
@@ -84,39 +84,39 @@
     "text": "Un peu de configuration\n\nvscode n’est pas dédié à , contrairement à RStudio\nExcellent tutoriel en 3 parties de ThinkR ici, ici puis ici\n\n\n\ninstall.packages(\"languageserver\")\nInstaller l’extension vscode REditorSupport\nInstaller radian, une console R (basée sur python) plus conviviale que le terminal R de base\ninstall.packages(\"httpgd\") pour l’affichage de graphiques\nConfigurations diverses et ajout des raccourcis (pipe etc.)"
   },
   {
-    "objectID": "index.html#autocomplétion-aide",
-    "href": "index.html#autocomplétion-aide",
+    "objectID": "index.html#jai-oublié-les-arguments-de-ma-fonction",
+    "href": "index.html#jai-oublié-les-arguments-de-ma-fonction",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "Autocomplétion, aide",
-    "text": "Autocomplétion, aide\nSupérieure dans l’éditeur de script"
+    "section": "J’ai oublié les arguments de ma fonction 😨",
+    "text": "J’ai oublié les arguments de ma fonction 😨\nAutocomplétion meilleure dans l’éditeur de script"
   },
   {
-    "objectID": "index.html#autocomplétion-aide-1",
-    "href": "index.html#autocomplétion-aide-1",
+    "objectID": "index.html#jai-oublié-les-arguments-de-ma-fonction-1",
+    "href": "index.html#jai-oublié-les-arguments-de-ma-fonction-1",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "Autocomplétion, aide",
-    "text": "Autocomplétion, aide\nUn peu plus sobre dans le terminal"
+    "section": "J’ai oublié les arguments de ma fonction 😨",
+    "text": "J’ai oublié les arguments de ma fonction 😨\nUn peu plus sobre dans le terminal"
   },
   {
-    "objectID": "index.html#workspace",
-    "href": "index.html#workspace",
+    "objectID": "index.html#mais-où-sont-mes-objets",
+    "href": "index.html#mais-où-sont-mes-objets",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "Workspace ",
-    "text": "Workspace"
+    "section": "Mais où sont mes objets  ?",
+    "text": "Mais où sont mes objets  ?"
   },
   {
     "objectID": "index.html#mais-où-est-mon-projet",
     "href": "index.html#mais-où-est-mon-projet",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Mais où est mon projet ? 😨",
-    "text": "Mais où est mon projet ? 😨\n\n\nPas de projets à la Rstudio (.RProj), Les workspaces vscode sont définis arbitrairement à l’échelle des répertoires (détection de dépôts git)"
+    "text": "Mais où est mon projet ? 😨\n\n\nPas de projets à la Rstudio (.RProj)\nLes workspaces vscode sont définis arbitrairement à l’échelle des répertoires (détection de dépôts git)"
   },
   {
     "objectID": "index.html#extension-vscode-quarto",
     "href": "index.html#extension-vscode-quarto",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Extension vscode Quarto",
-    "text": "Extension vscode Quarto\n\nQuarto est né peu après le début de des développements vscode chez Posit  Optimisé"
+    "text": "Extension vscode Quarto\n\nQuarto semble très (mieux) optimisé sur vscode"
   },
   {
     "objectID": "index.html#autocomplétion",
@@ -165,7 +165,7 @@
     "href": "index.html#ia-générative-copilot-llms",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "IA générative (Copilot, LLMs…)",
-    "text": "IA générative (Copilot, LLMs…)\nIntégration native Github Copilot (Microsoft) et intégrations de LLMs OpenSource (ex : LLama3)"
+    "text": "IA générative (Copilot, LLMs…)\nGithub Copilot (Microsoft) et intégrations de LLMs (ex : LLama3)"
   },
   {
     "objectID": "index.html#database-manager",
@@ -196,11 +196,18 @@
     "text": "SSH Remote"
   },
   {
-    "objectID": "index.html#python-shiny",
-    "href": "index.html#python-shiny",
+    "objectID": "index.html#python-jupyter-quarto",
+    "href": "index.html#python-jupyter-quarto",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "Python  & Shiny",
-    "text": "Python  & Shiny"
+    "section": "Python / Jupyter (+Quarto) ",
+    "text": "Python / Jupyter (+Quarto)"
+  },
+  {
+    "objectID": "index.html#shiny",
+    "href": "index.html#shiny",
+    "title": "VSCode pour faire du R : une (R)évolution ?",
+    "section": "Shiny",
+    "text": "Shiny"
   },
   {
     "objectID": "index.html#latex",
@@ -235,7 +242,7 @@
     "href": "index.html#a-retenir",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "A retenir",
-    "text": "A retenir\n\n\nFormidable outil qui ouvre vers une communauté bien plus large que \nNécessite un peu plus de compétences en bidouille informatiques\nPrend tout son sens lorsque le travail devient polyglotte (   )\n\nSi vous restez sous  uniquement, RStudio reste un IDE 100% dédié et tout à fait adapté\n\nFonctionnement hybride : RStudio pour du  en local, vscode pour de la connexion SSH ou pour d’autres langages"
+    "text": "A retenir\n\n\nFormidable outil très personnalisable qui ouvre vers une communauté de dev bien plus large que \nNécessite un peu plus de compétences en bidouille informatique\nPrend tout son sens lorsque le travail devient polyglotte (   )\n\nSi vous restez sous  uniquement, RStudio reste un IDE 100% dédié et tout à fait adapté\n\nFonctionnement hybride : RStudio pour du  en local, vscode pour de la connexion SSH ou pour d’autres langages ?"
   },
   {
     "objectID": "index.html#merci-des-questions",
