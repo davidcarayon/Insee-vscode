@@ -4,7 +4,7 @@
     "href": "index.html#bonjour",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Bonjour 👋",
-    "text": "Bonjour 👋\n\n\nStatisticien @ INRAE | UR “ETTIS”\nEcologue de formation ayant mal tourné\nR nerd depuis ~10ans : Packages R, Applis Shiny, extensions Quarto\nPropageur de bonnes pratiques (renv, targets, tidyverse/models)\nApprenti devops (gitlab cicd, docker, k8s) -&gt; Projet SK8"
+    "text": "Bonjour 👋\n\n\nStatisticien @ INRAE | UR “Environnement, Territoires en Transition, Infrastructures, Sociétés”\nEcologue de formation ayant mal tourné 🤓\nR nerd depuis ~10ans : Traitement de données, Packages R, Applis Shiny, extensions Quarto\nPropageur de bonnes pratiques (renv, targets, tidyverse/models, etc.)\nApprenti devops (gitlab cicd, docker, k8s) -&gt; Projet SK8"
   },
   {
     "objectID": "index.html#et-vous-vous-codez-avec-quoi",
@@ -18,7 +18,7 @@
     "href": "index.html#visual-studio-code",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Visual Studio Code",
-    "text": "Visual Studio Code\n\n\nIDE Open-Source développé par Microsoft\nDisponible sous   et  (electron.js)\nEntièrement modulable (.json) et formidable bibliothèque d’extensions (&gt;40k)\nExcellente intégration de  et \nPrise en charge d’une 100aine de langages : C, C#, C++, CSS, HTML, Java, JavaScript, Markdown, PHP, Python…\n… y compris  !"
+    "text": "Visual Studio Code\n\n\nIDE Open-Source développé par Microsoft\nDisponible sous   et  (electron.js)\nLA référence des IDE gratuits, particulièrement auprès des développeurs web\nEntièrement modulable (.json) et formidable bibliothèque d’extensions (&gt;40k)\nExcellente intégration de  et \nPrise en charge d’une 100aine de langages : C, C#, C++, CSS, HTML, Java, JavaScript, Markdown, PHP, Python…\n… y compris  !"
   },
   {
     "objectID": "index.html#ca-ressemble-à-quoi",
@@ -28,43 +28,57 @@
     "text": "Ca ressemble à quoi ?\n\nA ce que l’on veut !!"
   },
   {
-    "objectID": "index.html#lexplorateur-de-fichier",
-    "href": "index.html#lexplorateur-de-fichier",
+    "objectID": "index.html#lexplorateur-de-fichiers",
+    "href": "index.html#lexplorateur-de-fichiers",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "L’explorateur de fichier",
-    "text": "L’explorateur de fichier\n\n\n\n\nPossibilité de glisser-déposer depuis l’explorateur de fichier\nRenommage à la volée\nthèmes d’icônes\ncopy/paste depuis le presse-papier (+ génération syntaxe markdown)\nRechercher/Remplacer dans un fichier / dans un répertoire (rapidité++ et regex)"
+    "section": "L’explorateur de fichiers ",
+    "text": "L’explorateur de fichiers \n\n\n\n\nPossibilité de glisser-déposer depuis l’explorateur de fichier\nRenommage à la volée\nthèmes d’icônes\ncopy/paste depuis le presse-papier (+ génération syntaxe markdown)\nRechercher/Remplacer dans un fichier / dans un répertoire (rapidité++ et regex)"
   },
   {
     "objectID": "index.html#la-configuration",
     "href": "index.html#la-configuration",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "La configuration",
-    "text": "La configuration\n\n\n\n\n\n Ces options sont synchronisables avec votre compte Gihub"
+    "section": "La configuration ",
+    "text": "La configuration \n\n\n\n\n\n Ces options sont synchronisables avec votre compte Gihub"
   },
   {
     "objectID": "index.html#la-palette-de-commandes",
     "href": "index.html#la-palette-de-commandes",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "La palette de commandes",
-    "text": "La palette de commandes\nUn raccourci pour les gouverner tous  : CTRL + MAJ + P"
+    "section": "La palette de commandes ",
+    "text": "La palette de commandes \nUn raccourci pour les gouverner tous  : CTRL + MAJ + P"
   },
   {
-    "objectID": "index.html#snippets",
-    "href": "index.html#snippets",
+    "objectID": "index.html#les-snippets",
+    "href": "index.html#les-snippets",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "Snippets",
-    "text": "Snippets\n\n\n\n\n\nFichier .Qmd\n\n\n\n\n\n\nFichier .R"
+    "section": "Les snippets ",
+    "text": "Les snippets \n\n\n\n\n\nFichier .Qmd\n\n\n\n\n\n\nFichier .R"
   },
   {
-    "objectID": "index.html#outils-développeurs-linting-debug-formattage",
-    "href": "index.html#outils-développeurs-linting-debug-formattage",
+    "objectID": "index.html#outils-développeurs",
+    "href": "index.html#outils-développeurs",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "Outils développeurs : Linting, debug, formattage",
-    "text": "Outils développeurs : Linting, debug, formattage"
+    "section": "Outils développeurs ",
+    "text": "Outils développeurs \nLinting, diagnostics, mise en forme automatique…"
   },
   {
     "objectID": "index.html#git",
     "href": "index.html#git",
+    "title": "VSCode pour faire du R : une (R)évolution ?",
+    "section": "Git ",
+    "text": "Git"
+  },
+  {
+    "objectID": "index.html#git-1",
+    "href": "index.html#git-1",
+    "title": "VSCode pour faire du R : une (R)évolution ?",
+    "section": "Git ",
+    "text": "Git"
+  },
+  {
+    "objectID": "index.html#git-2",
+    "href": "index.html#git-2",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Git ",
     "text": "Git"
@@ -81,21 +95,21 @@
     "href": "index.html#un-peu-de-configuration",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Un peu de configuration",
-    "text": "Un peu de configuration\n\nvscode n’est pas dédié à , contrairement à RStudio\nExcellent tutoriel en 3 parties de ThinkR ici, ici puis ici\n\n\n\ninstall.packages(\"languageserver\")\nInstaller l’extension vscode REditorSupport\nInstaller radian, une console R (basée sur python) plus conviviale que le terminal R de base\ninstall.packages(\"httpgd\") pour l’affichage de graphiques\nConfigurations diverses et ajout des raccourcis (pipe etc.)"
+    "text": "Un peu de configuration\n\nvscode n’est pas dédié à , contrairement à RStudio\nExcellent tutoriel en 3 parties de ThinkR (Partie1), (Partie2) et (Partie3)\n\n\n\ninstall.packages(\"languageserver\")\nInstaller l’extension vscode REditorSupport\nInstaller radian, une console R (basée sur python) plus conviviale que le terminal R de base\ninstall.packages(\"httpgd\") pour l’affichage de graphiques\nConfigurations diverses et ajout des raccourcis (pipe etc.)"
   },
   {
-    "objectID": "index.html#jai-oublié-les-arguments-de-ma-fonction",
-    "href": "index.html#jai-oublié-les-arguments-de-ma-fonction",
+    "objectID": "index.html#cest-quoi-les-arguments-déjà",
+    "href": "index.html#cest-quoi-les-arguments-déjà",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "J’ai oublié les arguments de ma fonction 😨",
-    "text": "J’ai oublié les arguments de ma fonction 😨\nAutocomplétion meilleure dans l’éditeur de script"
+    "section": "C’est quoi les arguments déjà ? 🤔",
+    "text": "C’est quoi les arguments déjà ? 🤔\nAutocomplétion et aide contextuelle dans l’éditeur de script"
   },
   {
-    "objectID": "index.html#jai-oublié-les-arguments-de-ma-fonction-1",
-    "href": "index.html#jai-oublié-les-arguments-de-ma-fonction-1",
+    "objectID": "index.html#cest-quoi-les-arguments-déjà-1",
+    "href": "index.html#cest-quoi-les-arguments-déjà-1",
     "title": "VSCode pour faire du R : une (R)évolution ?",
-    "section": "J’ai oublié les arguments de ma fonction 😨",
-    "text": "J’ai oublié les arguments de ma fonction 😨\nUn peu plus sobre dans le terminal"
+    "section": "C’est quoi les arguments déjà ? 🤔",
+    "text": "C’est quoi les arguments déjà ? 🤔\nAutocomplétion plus limitée, on ne développe pas dans la console 😉"
   },
   {
     "objectID": "index.html#mais-où-sont-mes-objets",
@@ -124,6 +138,13 @@
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Autocomplétion",
     "text": "Autocomplétion\nAutocomplétion du YAML et du contenu Quarto"
+  },
+  {
+    "objectID": "index.html#editeur-visuel",
+    "href": "index.html#editeur-visuel",
+    "title": "VSCode pour faire du R : une (R)évolution ?",
+    "section": "Editeur visuel",
+    "text": "Editeur visuel"
   },
   {
     "objectID": "index.html#les-extensions",
@@ -224,6 +245,13 @@
     "text": "FOAM\nUn Obsidian dans vscode !"
   },
   {
+    "objectID": "index.html#pour-les-démodés",
+    "href": "index.html#pour-les-démodés",
+    "title": "VSCode pour faire du R : une (R)évolution ?",
+    "section": "Pour les démodés 😉 …",
+    "text": "Pour les démodés 😉 …"
+  },
+  {
     "objectID": "index.html#et-bien-dautres",
     "href": "index.html#et-bien-dautres",
     "title": "VSCode pour faire du R : une (R)évolution ?",
@@ -242,7 +270,7 @@
     "href": "index.html#a-retenir",
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "A retenir",
-    "text": "A retenir\n\n\nFormidable outil très personnalisable qui ouvre vers une communauté de dev bien plus large que \nNécessite un peu plus de compétences en bidouille informatique\nPrend tout son sens lorsque le travail devient polyglotte (   )\n\nSi vous restez sous  uniquement, RStudio reste un IDE 100% dédié et tout à fait adapté\n\nFonctionnement hybride : RStudio pour du  en local, vscode pour de la connexion SSH ou pour d’autres langages ?"
+    "text": "A retenir\n\n\nFormidable outil très personnalisable qui ouvre vers une communauté de dev bien plus large que \nNécessite un peu plus de compétences en bidouille informatique\nPrend tout son sens lorsque le travail devient polyglotte (   ) et/ou sur serveur\n\nSi vous restez sous  en local uniquement, RStudio reste un IDE 100% dédié, maintenu et tout à fait adapté\n\nFonctionnement hybride possible : RStudio pour du  en local, vscode pour de la connexion SSH, du git avancé ou pour d’autres langages ?"
   },
   {
     "objectID": "index.html#merci-des-questions",
@@ -257,5 +285,12 @@
     "title": "VSCode pour faire du R : une (R)évolution ?",
     "section": "Slides made with …",
     "text": "Slides made with …\n\n\n\n\n\n\n https://github.com/davidcarayon/quarto-inrae-extension"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "VSCode pour faire du R : une (R)évolution ?",
+    "section": "References …",
+    "text": "References …\n\n\n\n\nCommunication INSEE\n\n\n\n\nPartie1. « Faire du R dans VSCode ? Même pas peur ! - ThinkR - Certification & Formation langage R ». https://thinkr.fr/faire-du-r-dans-vscode-meme-pas-peur/.\n\n\nPartie2. « Poursuivons notre route avec VSCode : les projets, les scripts, les notebooks ... tout est là ! - ThinkR - Certification & Formation langage R ». https://thinkr.fr/poursuivons-notre-route-avec-vscode-les-projets-les-scripts-les-notebooks-tout-est-la/.\n\n\nPartie3. « Créer un package R et le versionner avec VSCode ? Mission possible ! - ThinkR - Certification & Formation langage R ». https://thinkr.fr/creer-un-package-r-et-le-versionner-avec-vscode-mission-possible/."
   }
 ]

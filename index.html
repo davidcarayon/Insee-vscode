@@ -31,7 +31,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -354,16 +374,16 @@
 <h2>Bonjour <span class="emoji" data-emoji="wave">👋</span></h2>
 <div>
 <ul>
-<li class="fragment">Statisticien @ INRAE | UR “ETTIS”</li>
-<li class="fragment">Ecologue de formation ayant mal tourné</li>
-<li class="fragment">R nerd depuis ~10ans : Packages R, Applis Shiny, extensions Quarto</li>
-<li class="fragment">Propageur de bonnes pratiques (renv, targets, tidyverse/models)</li>
+<li class="fragment">Statisticien @ INRAE | UR “Environnement, Territoires en Transition, Infrastructures, Sociétés”</li>
+<li class="fragment">Ecologue de formation ayant mal tourné <span class="emoji" data-emoji="nerd_face">🤓</span></li>
+<li class="fragment">R nerd depuis ~10ans : Traitement de données, Packages R, Applis Shiny, extensions Quarto</li>
+<li class="fragment">Propageur de bonnes pratiques (renv, targets, tidyverse/models, etc.)</li>
 <li class="fragment">Apprenti devops (gitlab cicd, docker, k8s) -&gt; Projet <a href="https://sk8.inrae.fr">SK8</a></li>
 </ul>
 </div>
 <div class="fragment">
 <center>
-<p><a href="https://github.com/topics/r" title="R"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" alt="R logo" width="36" height="36"></a> <a href="https://github.com/topics/python" title="Python"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="python logo" width="36" height="36"></a> <a href="https://github.com/topics/postgresql" title="PostgreSQL"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="postgresql logo" width="36" height="36"></a> <a href="https://github.com/topics/quarto" title="Git"><img src="https://raw.githubusercontent.com/github/explore/80f119e965a9a3df7b74c3f7b63a502e3d0ded36/topics/quarto/quarto.png" alt="quarto logo" width="36" height="36"></a> <a href="https://github.com/topics/tidyverse" title="Git"><img src="https://avatars.githubusercontent.com/u/22032646?s=200&amp;v=4" alt="tidyverse logo" width="36" height="36"></a> <a href="https://github.com/topics/tidymodels" title="Git"><img src="https://github.com/tidymodels/tidymodels/raw/main/man/figures/logo.png" alt="tidymodels logo" width="36" height="36"></a> <a href="https://github.com/topics/shiny" title="Git"><img src="https://github.com/rstudio/shiny/raw/main/man/figures/logo.png" alt="shiny logo" width="36" height="36"></a> <a href="https://github.com/topics/Visual_Studio_Code" title="VSCode"><img src="https://raw.githubusercontent.com/github/explore/bbd48b997e8d0bef63f676eca4da5e1f76487b56/topics/visual-studio-code/visual-studio-code.png" alt="VSCode logo" width="36" height="36"></a> <a href="https://github.com/topics/gitlab" title="GitLab"><img src="https://raw.githubusercontent.com/github/explore/3f5c1e7d83bce81b0872ac88d46532515bdc88ef/topics/gitlab/gitlab.png" alt="gitlab logo" width="36" height="36"></a> <a href="https://github.com/topics/docker" title="docker"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="docker logo" width="36" height="36"></a> <a href="https://github.com/topics/odk" title="odk"><img src="https://repository-images.githubusercontent.com/355069/27043699-2a0a-4135-b3bd-bc8a92810980" alt="odk logo" width="50" height="36"></a> <a href="https://github.com/topics/bootstrap" title="Bootstrap"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" alt="Bootstrap" width="36" height="36"></a></p>
+<a href="https://github.com/topics/r" title="R"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" alt="R logo" width="50" height="50"></a> <a href="https://github.com/topics/python" title="Python"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="python logo" width="50" height="50"></a> <a href="https://github.com/topics/postgresql" title="PostgreSQL"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="postgresql logo" width="50" height="50"></a> <a href="https://github.com/topics/quarto" title="Git"><img src="https://raw.githubusercontent.com/github/explore/80f119e965a9a3df7b74c3f7b63a502e3d0ded36/topics/quarto/quarto.png" alt="quarto logo" width="50" height="50"></a> <a href="https://github.com/topics/tidyverse" title="Git"><img src="https://avatars.githubusercontent.com/u/22032646?s=200&amp;v=4" alt="tidyverse logo" width="50" height="50"></a> <a href="https://github.com/topics/tidymodels" title="Git"><img src="https://github.com/tidymodels/tidymodels/raw/main/man/figures/logo.png" alt="tidymodels logo" width="50" height="50"></a> <a href="https://github.com/topics/shiny" title="Git"><img src="https://github.com/rstudio/shiny/raw/main/man/figures/logo.png" alt="shiny logo" width="50" height="50"></a> <a href="https://github.com/topics/Visual_Studio_Code" title="VSCode"><img src="https://raw.githubusercontent.com/github/explore/bbd48b997e8d0bef63f676eca4da5e1f76487b56/topics/visual-studio-code/visual-studio-code.png" alt="VSCode logo" width="50" height="50"></a> <a href="https://github.com/topics/gitlab" title="GitLab"><img src="https://raw.githubusercontent.com/github/explore/3f5c1e7d83bce81b0872ac88d46532515bdc88ef/topics/gitlab/gitlab.png" alt="gitlab logo" width="50" height="50"></a> <a href="https://github.com/topics/docker" title="docker"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="docker logo" width="50" height="50"></a> <a href="https://github.com/topics/odk" title="odk"><img src="https://repository-images.githubusercontent.com/355069/27043699-2a0a-4135-b3bd-bc8a92810980" alt="odk logo" width="50" height="50"></a> <a href="https://github.com/topics/bootstrap" title="Bootstrap"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" alt="Bootstrap" width="50" height="50"></a>
 </center>
 </div>
 </section>
@@ -398,6 +418,7 @@
 <ul>
 <li class="fragment">IDE Open-Source développé par Microsoft</li>
 <li class="fragment">Disponible sous <i class="fa-brands fa-apple" aria-label="apple"></i> <i class="fa-brands fa-windows" aria-label="windows"></i> et <i class="fa-brands fa-linux" aria-label="linux"></i> (electron.js)</li>
+<li class="fragment">LA référence des IDE gratuits, particulièrement auprès des développeurs web</li>
 <li class="fragment">Entièrement modulable (<code>.json</code>) et formidable bibliothèque d’extensions (&gt;40k)</li>
 <li class="fragment">Excellente intégration de <i class="fa-brands fa-git-alt" aria-label="git-alt"></i> et <i class="fa-brands fa-github" aria-label="github"></i></li>
 <li class="fragment">Prise en charge d’une 100aine de langages : C, C#, C++, CSS, HTML, Java, JavaScript, Markdown, PHP, Python…</li>
@@ -422,9 +443,14 @@
 </div>
 </div>
 </div>
+</section></section>
+<section>
+<section id="les-principales-fonctionnalités" class="title-slide slide level1 inverse center">
+<h1>Les principales fonctionnalités <i class="fa-solid fa-wrench" aria-label="wrench"></i></h1>
+
 </section>
-<section id="lexplorateur-de-fichier" class="slide level2">
-<h2>L’explorateur de fichier</h2>
+<section id="lexplorateur-de-fichiers" class="slide level2">
+<h2>L’explorateur de fichiers <i class="fa-solid fa-folder-open" aria-label="folder-open"></i></h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <div>
@@ -442,7 +468,7 @@
 </div>
 </section>
 <section id="la-configuration" class="slide level2">
-<h2>La configuration</h2>
+<h2>La configuration <i class="fa-solid fa-gears" aria-label="gears"></i></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/settings.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
@@ -451,7 +477,7 @@
 <p><i class="fa-solid fa-lightbulb" aria-label="lightbulb"></i> Ces options sont synchronisables avec votre compte Gihub</p>
 </section>
 <section id="la-palette-de-commandes" class="slide level2">
-<h2>La palette de commandes</h2>
+<h2>La palette de commandes <i class="fa-solid fa-palette" aria-label="palette"></i></h2>
 <p>Un raccourci pour les gouverner tous <i class="fa-solid fa-ring" aria-label="ring"></i> : CTRL + MAJ + P</p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -459,8 +485,8 @@
 </figure>
 </div>
 </section>
-<section id="snippets" class="slide level2">
-<h2>Snippets</h2>
+<section id="les-snippets" class="slide level2">
+<h2>Les snippets <i class="fa-solid fa-code" aria-label="code"></i></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
@@ -479,8 +505,9 @@
 </div>
 </div>
 </section>
-<section id="outils-développeurs-linting-debug-formattage" class="slide level2">
-<h2>Outils développeurs : Linting, debug, formattage</h2>
+<section id="outils-développeurs" class="slide level2">
+<h2>Outils développeurs <i class="fa-solid fa-robot" aria-label="robot"></i></h2>
+<p>Linting, diagnostics, mise en forme automatique…</p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/linting.gif" class="quarto-figure quarto-figure-center" style="width:75.0%"></p>
@@ -489,17 +516,26 @@
 </section>
 <section id="git" class="slide level2">
 <h2>Git <i class="fa-brands fa-git-alt" aria-label="git-alt"></i></h2>
-<div class="r-stack">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/git1.png" class="fragment quarto-figure quarto-figure-center" style="width:80.0%"></p>
+<p><img data-src="img/git1.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
 </figure>
 </div>
+</section>
+<section id="git-1" class="slide level2">
+<h2>Git <i class="fa-brands fa-git-alt" aria-label="git-alt"></i></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/merge-editor-overview.png" class="fragment quarto-figure quarto-figure-center" style="width:80.0%"></p>
+<p><img data-src="img/merge-editor-overview.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
 </figure>
 </div>
+</section>
+<section id="git-2" class="slide level2">
+<h2>Git <i class="fa-brands fa-git-alt" aria-label="git-alt"></i></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/git-history.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
 </div>
 </section>
 <section id="github-gitlab" class="slide level2">
@@ -507,7 +543,7 @@
 <div class="r-stack">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/open-in.png" class="fragment quarto-figure quarto-figure-center" style="width:60.0%"></p>
+<p><img data-src="img/open-in.png" class="fragment quarto-figure quarto-figure-center" style="width:80.0%"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -531,7 +567,7 @@
 <h2>Un peu de configuration</h2>
 <ul>
 <li>vscode n’est pas dédié à <i class="fa-brands fa-r-project" aria-label="r-project"></i>, contrairement à RStudio</li>
-<li>Excellent tutoriel en 3 parties de <a href="https://thinkr.fr">ThinkR</a> <a href="https://thinkr.fr/faire-du-r-dans-vscode-meme-pas-peur/">ici</a>, <a href="https://thinkr.fr/poursuivons-notre-route-avec-vscode-les-projets-les-scripts-les-notebooks-tout-est-la">ici</a> puis <a href="https://thinkr.fr/creer-un-package-r-et-le-versionner-avec-vscode-mission-possible">ici</a></li>
+<li>Excellent tutoriel en 3 parties de <a href="https://thinkr.fr">ThinkR</a> <span class="citation" data-cites="www.thinkr.fr2023">(<a href="#/references" role="doc-biblioref" onclick="">Partie1</a>)</span>, <span class="citation" data-cites="www.thinkr.fr">(<a href="#/references" role="doc-biblioref" onclick="">Partie2</a>)</span> et <span class="citation" data-cites="www.thinkr.fr2024">(<a href="#/references" role="doc-biblioref" onclick="">Partie3</a>)</span></li>
 </ul>
 <div>
 <ol type="1">
@@ -543,18 +579,18 @@
 </ol>
 </div>
 </section>
-<section id="jai-oublié-les-arguments-de-ma-fonction" class="slide level2">
-<h2>J’ai oublié les arguments de ma fonction <span class="emoji" data-emoji="fearful">😨</span></h2>
-<p>Autocomplétion meilleure dans l’éditeur de script</p>
+<section id="cest-quoi-les-arguments-déjà" class="slide level2">
+<h2>C’est quoi les arguments déjà ? <span class="emoji" data-emoji="thinking">🤔</span></h2>
+<p>Autocomplétion et aide contextuelle dans l’éditeur de script</p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/completion.gif" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
 </figure>
 </div>
 </section>
-<section id="jai-oublié-les-arguments-de-ma-fonction-1" class="slide level2">
-<h2>J’ai oublié les arguments de ma fonction <span class="emoji" data-emoji="fearful">😨</span></h2>
-<p>Un peu plus sobre dans le terminal</p>
+<section id="cest-quoi-les-arguments-déjà-1" class="slide level2">
+<h2>C’est quoi les arguments déjà ? <span class="emoji" data-emoji="thinking">🤔</span></h2>
+<p>Autocomplétion plus limitée, <strong>on ne développe pas dans la console</strong> <span class="emoji" data-emoji="wink">😉</span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/radian.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
@@ -602,6 +638,14 @@
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/quarto-yaml.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+</section>
+<section id="editeur-visuel" class="slide level2">
+<h2>Editeur visuel</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/visual-editor.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </section></section>
@@ -705,6 +749,10 @@
 </figure>
 </div>
 </section>
+<section id="pour-les-démodés" class="slide level2">
+<h2>Pour les démodés <span class="emoji" data-emoji="wink">😉</span> …</h2>
+<p><img data-src="img/SAS.png"></p>
+</section>
 <section id="et-bien-dautres" class="slide level2">
 <h2>Et bien d’autres !!</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -738,11 +786,11 @@
 <ul>
 <li class="fragment">Formidable outil très personnalisable qui ouvre vers une communauté de dev bien plus large que <i class="fa-brands fa-r-project" aria-label="r-project"></i></li>
 <li class="fragment">Nécessite un peu plus de compétences en bidouille informatique</li>
-<li class="fragment">Prend tout son sens lorsque le travail devient polyglotte (<i class="fa-brands fa-html5" aria-label="html5"></i> <i class="fa-brands fa-css3-alt" aria-label="css3-alt"></i> <i class="fa-brands fa-js" aria-label="js"></i> <i class="fa-brands fa-python" aria-label="python"></i>)
+<li class="fragment">Prend tout son sens lorsque le travail devient polyglotte (<i class="fa-brands fa-html5" aria-label="html5"></i> <i class="fa-brands fa-css3-alt" aria-label="css3-alt"></i> <i class="fa-brands fa-js" aria-label="js"></i> <i class="fa-brands fa-python" aria-label="python"></i>) et/ou sur serveur
 <ul>
-<li class="fragment">Si vous restez sous <i class="fa-brands fa-r-project" aria-label="r-project"></i> uniquement, RStudio reste un IDE 100% dédié et tout à fait adapté</li>
+<li class="fragment">Si vous restez sous <i class="fa-brands fa-r-project" aria-label="r-project"></i> en local uniquement, RStudio reste un IDE 100% dédié, maintenu et tout à fait adapté</li>
 </ul></li>
-<li class="fragment">Fonctionnement hybride : RStudio pour du <i class="fa-brands fa-r-project" aria-label="r-project"></i> en local, vscode pour de la connexion SSH ou pour d’autres langages ?</li>
+<li class="fragment">Fonctionnement hybride possible : RStudio pour du <i class="fa-brands fa-r-project" aria-label="r-project"></i> en local, vscode pour de la connexion SSH, du git avancé ou pour d’autres langages ?</li>
 </ul>
 </div>
 </section>
@@ -776,8 +824,13 @@
 <p><i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/davidcarayon/quarto-inrae-extension" class="uri">https://github.com/davidcarayon/quarto-inrae-extension</a></p>
 </center>
 </section></section>
+<section>
 <section id="demo-time" class="title-slide slide level1 inverse center">
 <h1>Demo Time ! <i class="fa-solid fa-rocket" aria-label="rocket"></i></h1>
+
+</section>
+<section id="references" class="slide level2 plain smaller scrollable">
+<h2>References …</h2>
 
 <div class="quarto-auto-generated-content">
 <p><img src="site_libs/quarto-contrib/quarto-project/davidcarayon/inrae/ressources/assets/bloc-etat.png" class="slide-logo"></p>
@@ -785,7 +838,18 @@
 <p>Communication INSEE</p>
 </div>
 </div>
-</section>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-www.thinkr.fr2023" class="csl-entry" role="listitem">
+Partie1. <span>«&nbsp;Faire du R dans VSCode ? Même pas peur ! - ThinkR - Certification &amp; Formation langage R&nbsp;»</span>. <a href="https://thinkr.fr/faire-du-r-dans-vscode-meme-pas-peur/">https://thinkr.fr/faire-du-r-dans-vscode-meme-pas-peur/</a>.
+</div>
+<div id="ref-www.thinkr.fr" class="csl-entry" role="listitem">
+Partie2. <span>«&nbsp;Poursuivons notre route avec VSCode : les projets, les scripts, les notebooks ... tout est là ! - ThinkR - Certification &amp; Formation langage R&nbsp;»</span>. <a href="https://thinkr.fr/poursuivons-notre-route-avec-vscode-les-projets-les-scripts-les-notebooks-tout-est-la/">https://thinkr.fr/poursuivons-notre-route-avec-vscode-les-projets-les-scripts-les-notebooks-tout-est-la/</a>.
+</div>
+<div id="ref-www.thinkr.fr2024" class="csl-entry" role="listitem">
+Partie3. <span>«&nbsp;Créer un package R et le versionner avec VSCode ? Mission possible ! - ThinkR - Certification &amp; Formation langage R&nbsp;»</span>. <a href="https://thinkr.fr/creer-un-package-r-et-le-versionner-avec-vscode-mission-possible/">https://thinkr.fr/creer-un-package-r-et-le-versionner-avec-vscode-mission-possible/</a>.
+</div>
+</div>
+</section></section>
     </div>
   </div>
 
