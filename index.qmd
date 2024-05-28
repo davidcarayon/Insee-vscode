@@ -107,9 +107,9 @@ A ce que l'on veut !!
 
 ## La configuration
 
-![](img/settings.png){width="80%"}
+![](img/settings.png){fig-align="center" width="80%"}
 
-{{< fa lightbulb >}}Ces options sont synchronisables avec votre compte Gihub
+{{< fa lightbulb >}} Ces options sont synchronisables avec votre compte Gihub
 
 ## La palette de commandes
 
@@ -153,7 +153,7 @@ Un raccourci pour les gouverner tous {{< fa ring >}} : CTRL + MAJ + P
 
 # Et {{< fa brands r-project >}} dans tout ça ? {.inverse}
 
-## Un peu de configuration
+## Un peu de configuration 
 
 -   vscode n'est pas dédié à {{< fa brands r-project >}}, contrairement à RStudio
 -   Excellent tutoriel en 3 parties de [ThinkR](https://thinkr.fr) [ici](https://thinkr.fr/faire-du-r-dans-vscode-meme-pas-peur/), [ici](https://thinkr.fr/poursuivons-notre-route-avec-vscode-les-projets-les-scripts-les-notebooks-tout-est-la) puis [ici](https://thinkr.fr/creer-un-package-r-et-le-versionner-avec-vscode-mission-possible)
@@ -166,31 +166,33 @@ Un raccourci pour les gouverner tous {{< fa ring >}} : CTRL + MAJ + P
 5.  Configurations diverses et ajout des raccourcis (pipe etc.)
 :::
 
-## Autocomplétion, aide
+## J'ai oublié les arguments de ma fonction :fearful:
 
-Supérieure dans l'éditeur de script
+Autocomplétion meilleure dans l'éditeur de script
 
-![](img/completion.gif){fig-align="center" width="80%"}
+![](img/completion.gif){fig-align="center" width="90%"}
 
-## Autocomplétion, aide
+## J'ai oublié les arguments de ma fonction :fearful:
 
 Un peu plus sobre dans le terminal
 
-![](img/radian.png){fig-align="center" width="80%"}
+![](img/radian.png){fig-align="center" width="90%"}
 
-## Workspace {{< fa brands r-project >}}
+## Mais où sont mes objets {{< fa brands r-project >}} ?
 
-![](img/workspace-viewer.gif){fig-align="center" width="90%"}
+![](img/workspace.png)
 
 ## Mais où est mon projet ? :fearful:
 
 ::: columns
 ::: {.column width="40%"}
-Pas de projets à la Rstudio (.RProj), Les `workspaces` vscode sont définis arbitrairement à l'échelle des répertoires (détection de dépôts git)
+Pas de projets à la Rstudio (.RProj)
+
+Les `workspaces` vscode sont définis arbitrairement à l'échelle des répertoires (détection de dépôts git)
 :::
 
 ::: {.column width="60%"}
-![](img/projets.png){fig-align="center" width="60%"}
+![](img/projets.png){fig-align="center" width="80%"}
 :::
 :::
 
@@ -198,9 +200,9 @@ Pas de projets à la Rstudio (.RProj), Les `workspaces` vscode sont définis arb
 
 ## Extension vscode Quarto
 
--   Quarto est né peu après le début de des développements vscode chez Posit {{< fa arrow-right >}} Optimisé
+-   Quarto semble très (mieux) optimisé sur vscode
 
-![](img/python-vscode.png){fig-align="center" width="60%"}
+![](img/python-vscode.png){fig-align="center" width="90%"}
 
 ## Autocomplétion
 
@@ -216,11 +218,15 @@ Autocomplétion du YAML et du contenu Quarto
 
 ## Rainbow CSV {background-image="img/csvlogo.png" background-size="200px" background-position="top 40px right 80px"}
 
-![](img/rainbow.png){fig-align="center" width="70%"}
+<br>
+
+![](img/rainbow.png){fig-align="center" width="80%"}
 
 ## Excel Viewer {background-image="img/excelviewer.png" background-size="200px" background-position="top 40px right 80px"}
 
-![](img/excelview.png){fig-align="center" width="70%"}
+<br>
+
+![](img/excelview.png){fig-align="center" width="80%"}
 
 ## Color Picker  {background-image="img/colorpicker-logo.png" background-size="200px" background-position="top 40px right 80px"}
 
@@ -234,13 +240,13 @@ Autocomplétion du YAML et du contenu Quarto
 <br>
 <br>
 
-![](img/snapcode.png){fig-align="center" width="70%"}
+![](img/snapcode.png){fig-align="center" width="80%"}
 
 ## IA générative (Copilot, LLMs...) {background-image="img/copilot.png" background-size="100px" background-position="top 40px right 80px"}
 
-Intégration native Github Copilot (Microsoft) et intégrations de LLMs OpenSource (ex : LLama3)
+Github Copilot (Microsoft) et intégrations de LLMs (ex : LLama3)
 
-![](img/ia_continue.png){fig-align="center" width="60%"}
+![](img/ia_continue.png){fig-align="center" width="70%"}
 
 ## Database Manager {background-image="img/database-logo.png" background-size="200px" background-position="top 40px right 80px"}
 <br>
@@ -260,9 +266,13 @@ Intégration native Github Copilot (Microsoft) et intégrations de LLMs OpenSour
 
 ![](img/cap-ssh.png)
 
-## Python {{< fa brands python >}} & Shiny {background-image="img/shiny-logo.png" background-size="100px" background-position="top 40px right 80px"}
+## Python / Jupyter (+Quarto) {{< fa brands python >}}
 
-![](img/vscode-shiny.png){fig-align="center" width="60%"}
+![](img/python_jypyter.png)
+
+## Shiny {background-image="img/shiny-logo.png" background-size="100px" background-position="top 40px right 80px"}
+
+![](img/shiny-vscode.png)
 
 ## LaTeX {background-image="img/latex-logo.png" background-size="100px" background-position="top 40px right 80px"}
 
@@ -294,11 +304,11 @@ Un [Obsidian](https://obsidian.md) dans vscode !
 ## A retenir
 
 :::{.incremental}
-- Formidable outil qui ouvre vers une communauté bien plus large que {{< fa brands r-project >}}
-- Nécessite un peu plus de compétences en bidouille informatiques
+- Formidable outil très personnalisable qui ouvre vers une communauté de dev bien plus large que {{< fa brands r-project >}}
+- Nécessite un peu plus de compétences en bidouille informatique
 - Prend tout son sens lorsque le travail devient polyglotte ({{< fa brands html5 >}} {{< fa brands css3-alt >}} {{< fa brands js >}} {{< fa brands python >}})
   - Si vous restez sous {{< fa brands r-project >}} uniquement, RStudio reste un IDE 100% dédié et tout à fait adapté
-- Fonctionnement hybride : RStudio pour du {{< fa brands r-project >}} en local, vscode pour de la connexion SSH ou pour d'autres langages 
+- Fonctionnement hybride : RStudio pour du {{< fa brands r-project >}} en local, vscode pour de la connexion SSH ou pour d'autres langages  ?
 :::
 
 ## Merci ! Des questions ?
