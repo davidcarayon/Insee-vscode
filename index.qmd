@@ -238,6 +238,18 @@ Autocomplétion du YAML et du contenu Quarto
 
 ![](img/excelview.png){fig-align="center" width="80%"}
 
+## Peacock {background-image="img/peacock-logo.png" background-size="200px" background-position="top 40px right 80px"}
+
+<br>
+
+![](img/hero.png){fig-align="center" width="80%"}
+
+## Better Comments {background-image="img/bettercom-logo.png" background-size="200px" background-position="top 40px right 80px"}
+
+<br>
+
+![](img/better-comments.PNG){fig-align="center" width="70%"}
+
 ## Color Picker {background-image="img/colorpicker-logo.png" background-size="200px" background-position="top 40px right 80px"}
 
 <br> <br>
