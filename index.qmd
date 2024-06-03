@@ -1,5 +1,5 @@
 ---
-title: "VSCode pour faire du R : une (**R**)évolution ?"
+title: "VSCode pour faire du {{< fa brands r-project >}} : une (**R**)évolution ?"
 subtitle: "Présentation de l'IDE et retour d'expérience"
 date: "2024-06-03"
 date-format: full
