@@ -21,6 +21,13 @@
     "text": "Visual Studio Code\n\n\nIDE Open-Source développé par Microsoft\nDisponible sous   et  (electron.js)\nLA référence des IDE gratuits, particulièrement auprès des développeurs web\nEntièrement modulable (.json) et formidable bibliothèque d’extensions (&gt;40k)\nExcellente intégration de  et \nPrise en charge d’une 100aine de langages : C, C#, C++, CSS, HTML, Java, JavaScript, Markdown, PHP, Python…\n… y compris  !"
   },
   {
+    "objectID": "index.html#open-source-pas-tout-à-fait",
+    "href": "index.html#open-source-pas-tout-à-fait",
+    "title": "VSCode pour faire du  : une (R)évolution ?",
+    "section": "Open source ? Pas tout à fait…",
+    "text": "Open source ? Pas tout à fait…\n\n\nLe depôt microsoft/vscode dans Github est effectivement déposé sous licence libre (MIT), MAIS…\nLe produit commercial proposé au téléchargement  rajoute une couche de télémétrie/tracking en + avec données envoyées à \nLe projet vscodium  propose une version compilée directement à partir du code source vscode, sans la couche M$\nvscodium est en tout point identique à vscode (UI, extensions,etc.) mais plus “privacy friendly”"
+  },
+  {
     "objectID": "index.html#ca-ressemble-à-quoi",
     "href": "index.html#ca-ressemble-à-quoi",
     "title": "VSCode pour faire du  : une (R)évolution ?",
