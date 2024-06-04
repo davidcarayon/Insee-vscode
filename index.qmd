@@ -73,6 +73,20 @@ bibliography: references.bib
 -   ... y compris {{< fa brands r-project >}} !
 :::
 
+
+## Open source ? Pas tout à fait... {background-image="img/vscodium.png" background-size="100px" background-position="top 40px right 80px"}
+
+::: incremental
+-   Le depôt [`microsoft/vscode`](https://github.com/microsoft/vscode) dans Github est effectivement déposé sous licence libre (MIT), MAIS...
+-   Le produit commercial proposé au téléchargement ![](img/vscode-logo-short.png){.center-logo} rajoute une couche de télémétrie/tracking en + avec données envoyées à  {{< fa brands windows >}}
+-  Le projet [`vscodium`](https://vscodium.com) ![](img/vscodium.png){.center-logo} propose une version compilée directement à partir du code source `vscode`, sans la couche M$
+-   `vscodium` est en tout point identique à vscode (UI, extensions,etc.) mais plus "privacy friendly"
+:::
+
+
+
+
+
 ## Ca ressemble à quoi ?
 
 . . .
