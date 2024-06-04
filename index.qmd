@@ -123,7 +123,7 @@ A ce que l'on veut !!
 
 ![](img/settings.png){fig-align="center" width="80%"}
 
-{{< fa lightbulb >}} Ces options sont synchronisables avec votre compte Gihub
+{{< fa lightbulb >}} Ces options sont synchronisables avec votre compte Github
 
 ## La palette de commandes  {{< fa palette >}}
 
