@@ -2,7 +2,7 @@ project:
   title: "slides"
   type: website
   output-dir: public
-  resources: banner.png
+  resources: img/logo_OL.gif
   render:
     - "*.qmd"
     - "*.Rmd"

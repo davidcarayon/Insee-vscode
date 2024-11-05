@@ -1,11 +1,15 @@
 /*-- scss:defaults --*/
 $presentation-h1-font-size: 2em;
 $presentation-font-size-root: 35px;
+$indigo:  #6610f2 !default; 
+$orange:  #FF9933 !default;
 /*-- scss:rules --*/
 .reveal ul ol li p {
   font-size: 0.7em;
   color: $inrae-sombre;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .reveal .quarto-title-block .quarto-title-authors {
   padding-top: 1em;
@@ -18,10 +22,15 @@ $presentation-font-size-root: 35px;
 }
 
 .reveal a {
-  color: #1363e3
+  color: $indigo;
 }
 
 .center-logo{
   margin: 0!important;
   height: 30px;
 }
+
+.slide-background-content {
+  background-color: #f1eade;
+}
+

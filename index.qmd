@@ -16,11 +16,12 @@ format:
     transition: none
     code-overflow: wrap
     title-slide-attributes:
-      data-footer: "<a rel='license' href='https://www.etalab.gouv.fr/licence-ouverte-open-licence/'><img alt='Creative Commons License' style='border-width:0; width:200px' src='https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif' /><br></a>Présentation diffusée sous <a rel='license' href='https://www.etalab.gouv.fr/licence-ouverte-open-licence/'>Licence ouverte</a>."
+      data-footer: "<a rel='license' href='https://www.etalab.gouv.fr/licence-ouverte-open-licence/'><img alt='Creative Commons License' style='border-width:0; width:200px;' src='img/logo_OL.gif' /><br></a>Présentation diffusée sous <a rel='license' href='https://www.etalab.gouv.fr/licence-ouverte-open-licence/'>Licence ouverte</a>."
 revealjs-plugins:
   - pointer
 from: markdown+emoji
 bibliography: references.bib
+mainfont: Atkinson Hyperlegible
 ---
 
 # Introduction {.inverse}
@@ -384,3 +385,4 @@ Un [Obsidian](https://obsidian.md) dans vscode !
 # Demo Time ! {{< fa rocket >}} {.inverse}
 
 ## References ... {.plain}
+

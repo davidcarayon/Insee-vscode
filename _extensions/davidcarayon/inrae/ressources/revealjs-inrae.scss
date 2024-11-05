@@ -37,7 +37,7 @@ $dark:          $gray-900 !default;
 // Document parameters
 $body-bg: #fff;
 $body-color: $inrae-sombre;
-$link-color: $indigo;
+$link-color: $indigo; 
 $presentation-heading-color: $inrae-charte;
 $presentation-heading-line-height: 1.2;
 $presentation-h1-font-size: 1.4em;
@@ -74,6 +74,11 @@ $presentation-h1-font-size: 1.4em;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 1.7em;
+}
+
+.reveal code {
+  color: $orange
 }
 
 .reveal h1 {
